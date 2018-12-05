@@ -4,11 +4,11 @@
 <br/>
 <br/> 
   <br> Product Name:
-  <%=product.name%>
+  <%=product._id%>
     <br/> Product Description:
-    <%=product.productDescription%>
+    <%=product.description%>
       <br/> unit price :
-      <%=product.price%>
+      <%=product.unitPrice%>
             <br/>
             <br/>
             <br/>
@@ -18,6 +18,6 @@
             </form>
 
             <br/>
-            <form method="POST" action="/product/delete/<%= product._productid %>">
+            <form method="POST" action="/product/delete/<%= product._id %>">
               <input type="submit" value="Delete this item" class="btn btn-danger pull-right" />
             </form>

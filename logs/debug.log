@@ -343,3 +343,199 @@ TypeError: Router.use() requires a middleware function but got a Object
     at Function.Module.runMain (internal/modules/cjs/loader.js:742:12)
     at startup (internal/bootstrap/node.js:279:19)
     at bootstrapNodeJSCore (internal/bootstrap/node.js:752:3)
+2018-12-04T23:56:00.640Z - info: Environment variables loaded.
+2018-12-04T23:56:00.732Z - error: uncaughtException: Router.use() requires a middleware function but got a Object date=Tue Dec 04 2018 17:56:00 GMT-0600 (Central Standard Time), pid=30596, uid=null, gid=null, cwd=C:\Users\s527999\Desktop\Supercars, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s527999\Desktop\Supercars\app.js], rss=70389760, heapTotal=60731392, heapUsed=39261432, external=19682808, loadavg=[0, 0, 0], uptime=35703.2079418
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (C:\Users\s527999\Desktop\Supercars\node_modules\express\lib\router\index.js:458:13)
+    at Function.<anonymous> (C:\Users\s527999\Desktop\Supercars\node_modules\express\lib\application.js:220:21)
+    at Array.forEach (<anonymous>)
+    at Function.use (C:\Users\s527999\Desktop\Supercars\node_modules\express\lib\application.js:217:7)
+    at Object.<anonymous> (C:\Users\s527999\Desktop\Supercars\app.js:67:5)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-12-04T23:56:44.144Z - error: uncaughtException: listen EADDRINUSE :::8081 date=Tue Dec 04 2018 17:56:44 GMT-0600 (Central Standard Time), pid=52808, uid=null, gid=null, cwd=C:\Users\s527999\Desktop\Supercars, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s527999\Desktop\Supercars\app.js], rss=74010624, heapTotal=63877120, heapUsed=32880552, external=18432388, loadavg=[0, 0, 0], uptime=35746.6149587
+Error: listen EADDRINUSE :::8081
+    at Server.setupListenHandle [as _listen2] (net.js:1360:14)
+    at listenInCluster (net.js:1401:12)
+    at Server.listen (net.js:1485:7)
+    at Function.listen (C:\Users\s527999\Desktop\Supercars\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\s527999\Desktop\Supercars\app.js:76:5)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Function.Module.runMain (module.js:694:10)
+    at startup (bootstrap_node.js:204:16)
+    at bootstrap_node.js:625:3
+2018-12-04T23:56:43.855Z - info: Environment variables loaded.
+2018-12-04T23:56:43.870Z - debug: START routing
+2018-12-04T23:56:43.940Z - debug: END routing
+2018-12-04T23:56:43.942Z - info: Loaded routing.
+2018-12-04T23:56:44.053Z - info: START seeder.
+2018-12-04T23:56:44.063Z - debug: 3 products seeded
+2018-12-04T23:56:44.063Z - info: END Seeder. Sample data read and verified.
+2018-12-04T23:56:44.068Z - debug: 2 orders seeded
+2018-12-04T23:56:44.069Z - info: END Seeder. Sample data read and verified.
+2018-12-04T23:56:44.073Z - debug: 2 customers seeded
+2018-12-04T23:56:44.074Z - info: END Seeder. Sample data read and verified.
+2018-12-04T23:56:44.078Z - debug: 6 orderLineItems seeded
+2018-12-04T23:56:44.078Z - info: END Seeder. Sample data read and verified.
+2018-12-04T23:57:11.062Z - info: Environment variables loaded.
+2018-12-04T23:57:11.077Z - debug: START routing
+2018-12-04T23:57:11.125Z - debug: END routing
+2018-12-04T23:57:11.125Z - info: Loaded routing.
+2018-12-04T23:57:11.192Z - info: START seeder.
+2018-12-04T23:57:11.201Z - debug: 3 products seeded
+2018-12-04T23:57:11.201Z - info: END Seeder. Sample data read and verified.
+2018-12-04T23:57:11.205Z - debug: 2 orders seeded
+2018-12-04T23:57:11.205Z - info: END Seeder. Sample data read and verified.
+2018-12-04T23:57:11.209Z - debug: 2 customers seeded
+2018-12-04T23:57:11.210Z - info: END Seeder. Sample data read and verified.
+2018-12-04T23:57:11.213Z - debug: 6 orderLineItems seeded
+2018-12-04T23:57:11.213Z - info: END Seeder. Sample data read and verified.
+2018-12-04T23:57:13.854Z - debug: GET /
+2018-12-04T23:57:13.867Z - debug: Request to /
+2018-12-04T23:57:25.479Z - debug: GET /product
+2018-12-04T23:58:27.727Z - info: Environment variables loaded.
+2018-12-04T23:58:27.796Z - error: uncaughtException: Cannot find module '../models/products.js' date=Tue Dec 04 2018 17:58:27 GMT-0600 (Central Standard Time), pid=52104, uid=null, gid=null, cwd=C:\Users\s527999\Desktop\Supercars, execPath=C:\Program Files\nodejs\node.exe, version=v8.12.0, argv=[C:\Program Files\nodejs\node.exe, C:\Users\s527999\Desktop\Supercars\app.js], rss=70131712, heapTotal=60731392, heapUsed=39115656, external=19687926, loadavg=[0, 0, 0], uptime=35850.2747744
+Error: Cannot find module '../models/products.js'
+    at Function.Module._resolveFilename (module.js:548:15)
+    at Function.Module._load (module.js:475:25)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s527999\Desktop\Supercars\controllers\product.js:3:15)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s527999\Desktop\Supercars\routes\index.js:20:24)
+    at Module._compile (module.js:653:30)
+    at Object.Module._extensions..js (module.js:664:10)
+    at Module.load (module.js:566:32)
+    at tryModuleLoad (module.js:506:12)
+    at Function.Module._load (module.js:498:3)
+    at Module.require (module.js:597:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (C:\Users\s527999\Desktop\Supercars\app.js:66:16)
+    at Module._compile (module.js:653:30)
+2018-12-04T23:58:27.746Z - debug: START routing
+2018-12-04T23:59:15.421Z - info: Environment variables loaded.
+2018-12-04T23:59:15.436Z - debug: START routing
+2018-12-04T23:59:15.531Z - debug: END routing
+2018-12-04T23:59:15.532Z - info: Loaded routing.
+2018-12-04T23:59:15.615Z - info: START seeder.
+2018-12-04T23:59:15.623Z - debug: 3 products seeded
+2018-12-04T23:59:15.625Z - info: END Seeder. Sample data read and verified.
+2018-12-04T23:59:15.629Z - debug: 2 orders seeded
+2018-12-04T23:59:15.629Z - info: END Seeder. Sample data read and verified.
+2018-12-04T23:59:15.634Z - debug: 2 customers seeded
+2018-12-04T23:59:15.634Z - info: END Seeder. Sample data read and verified.
+2018-12-04T23:59:15.638Z - debug: 6 orderLineItems seeded
+2018-12-04T23:59:15.640Z - info: END Seeder. Sample data read and verified.
+2018-12-04T23:59:19.323Z - debug: GET /product
+2018-12-04T23:59:23.014Z - debug: GET /images/favicon-32x32.png
+2018-12-04T23:59:47.430Z - debug: GET /product/findall
+2018-12-05T00:00:01.784Z - debug: GET /product/findone
+2018-12-05T00:00:06.544Z - debug: GET /product/findone/1
+2018-12-05T00:02:33.809Z - info: Environment variables loaded.
+2018-12-05T00:02:33.824Z - debug: START routing
+2018-12-05T00:02:33.930Z - debug: END routing
+2018-12-05T00:02:33.932Z - info: Loaded routing.
+2018-12-05T00:02:34.011Z - info: START seeder.
+2018-12-05T00:02:34.021Z - debug: 3 products seeded
+2018-12-05T00:02:34.021Z - info: END Seeder. Sample data read and verified.
+2018-12-05T00:02:34.027Z - debug: 2 orders seeded
+2018-12-05T00:02:34.028Z - info: END Seeder. Sample data read and verified.
+2018-12-05T00:02:34.035Z - debug: 2 customers seeded
+2018-12-05T00:02:34.036Z - info: END Seeder. Sample data read and verified.
+2018-12-05T00:02:34.043Z - debug: 6 orderLineItems seeded
+2018-12-05T00:02:34.044Z - info: END Seeder. Sample data read and verified.
+2018-12-05T00:03:46.362Z - debug: GET /product/findone/1
+2018-12-05T00:03:51.109Z - debug: GET /product
+2018-12-05T00:03:59.034Z - debug: GET /product/delete/
+2018-12-05T00:04:04.129Z - debug: GET /product/details/
+2018-12-05T00:04:09.208Z - debug: GET /product/edit/
+2018-12-05T00:04:18.639Z - debug: GET /product/delete/
+2018-12-05T00:05:11.419Z - debug: GET /product/delete/
+2018-12-05T00:05:13.123Z - debug: GET /images/favicon-32x32.png
+2018-12-05T00:05:20.564Z - debug: GET /product
+2018-12-05T00:05:23.314Z - debug: GET /product/delete/1002
+2018-12-05T00:05:23.320Z - info: Handling GET /delete/:id [object Object]
+2018-12-05T00:05:40.932Z - debug: GET /product/details/1002
+2018-12-05T00:05:40.940Z - info: Handling GET /details/:id [object Object]
+2018-12-05T00:05:45.054Z - debug: GET /product/edit/1002
+2018-12-05T00:05:45.058Z - info: Handling GET /edit/:id [object Object]
+2018-12-05T00:06:04.400Z - debug: GET /product/create
+2018-12-05T00:06:04.404Z - info: Handling GET /create[object Object]
+2018-12-05T00:06:04.414Z - debug: {"productKey":"product","description":"description","unitPrice":10000}
+2018-12-05T00:07:48.218Z - debug: GET /product
+2018-12-05T00:07:53.110Z - debug: GET /images/favicon-32x32.png
+2018-12-05T00:07:55.961Z - debug: GET /product/delete/1002
+2018-12-05T00:07:55.963Z - info: Handling GET /delete/:id [object Object]
+2018-12-05T00:09:51.403Z - debug: GET /product
+2018-12-05T00:09:56.152Z - debug: GET /images/favicon-32x32.png
+2018-12-05T00:09:57.429Z - debug: GET /product/edit/1002
+2018-12-05T00:09:57.432Z - info: Handling GET /edit/:id [object Object]
+2018-12-05T00:11:38.111Z - debug: GET /product
+2018-12-05T00:11:43.380Z - debug: GET /images/favicon-32x32.png
+2018-12-05T00:11:55.056Z - debug: GET /product/delete/1002
+2018-12-05T00:11:55.063Z - info: Handling GET /delete/:id [object Object]
+2018-12-05T00:12:58.237Z - info: Environment variables loaded.
+2018-12-05T00:12:58.259Z - debug: START routing
+2018-12-05T00:12:58.313Z - debug: END routing
+2018-12-05T00:12:58.314Z - info: Loaded routing.
+2018-12-05T00:12:58.371Z - info: START seeder.
+2018-12-05T00:12:58.387Z - debug: 3 products seeded
+2018-12-05T00:12:58.388Z - info: END Seeder. Sample data read and verified.
+2018-12-05T00:12:58.401Z - debug: 2 orders seeded
+2018-12-05T00:12:58.403Z - info: END Seeder. Sample data read and verified.
+2018-12-05T00:12:58.412Z - debug: 2 customers seeded
+2018-12-05T00:12:58.413Z - info: END Seeder. Sample data read and verified.
+2018-12-05T00:12:58.427Z - debug: 6 orderLineItems seeded
+2018-12-05T00:12:58.428Z - info: END Seeder. Sample data read and verified.
+2018-12-05T00:13:05.374Z - debug: GET /
+2018-12-05T00:13:05.382Z - debug: Request to /
+2018-12-05T00:13:14.574Z - debug: GET /product
+2018-12-05T00:13:19.028Z - debug: GET /product/details/1002
+2018-12-05T00:13:19.031Z - info: Handling GET /details/:id [object Object]
+2018-12-05T00:13:59.784Z - debug: GET /product/delete/1002
+2018-12-05T00:13:59.786Z - info: Handling GET /delete/:id [object Object]
+2018-12-05T00:16:30.234Z - debug: GET /product/delete/1002
+2018-12-05T00:16:30.238Z - info: Handling GET /delete/:id [object Object]
+2018-12-05T00:16:49.177Z - debug: GET /product/delete/1002
+2018-12-05T00:16:49.181Z - info: Handling GET /delete/:id [object Object]
+2018-12-05T00:17:10.793Z - debug: GET /product/
+2018-12-05T00:29:25.233Z - debug: GET /
+2018-12-05T00:29:25.235Z - debug: Request to /
+2018-12-05T00:29:32.047Z - debug: GET /order
+2018-12-05T00:29:35.403Z - debug: GET /product
+2018-12-05T00:29:37.267Z - debug: GET /product/delete/1002
+2018-12-05T00:29:37.268Z - info: Handling GET /delete/:id [object Object]
+2018-12-05T00:36:51.344Z - info: Environment variables loaded.
+2018-12-05T00:36:51.355Z - debug: START routing
+2018-12-05T00:36:51.402Z - debug: END routing
+2018-12-05T00:36:51.403Z - info: Loaded routing.
+2018-12-05T00:36:51.511Z - info: START seeder.
+2018-12-05T00:36:51.523Z - debug: 3 products seeded
+2018-12-05T00:36:51.524Z - info: END Seeder. Sample data read and verified.
+2018-12-05T00:36:51.534Z - debug: 2 orders seeded
+2018-12-05T00:36:51.535Z - info: END Seeder. Sample data read and verified.
+2018-12-05T00:36:51.544Z - debug: 2 customers seeded
+2018-12-05T00:36:51.545Z - info: END Seeder. Sample data read and verified.
+2018-12-05T00:36:51.553Z - debug: 6 orderLineItems seeded
+2018-12-05T00:36:51.554Z - info: END Seeder. Sample data read and verified.
+2018-12-05T00:36:54.505Z - debug: GET /
+2018-12-05T00:36:54.521Z - debug: Request to /
+2018-12-05T00:37:00.759Z - debug: GET /product
+2018-12-05T00:37:04.256Z - debug: GET /product/delete/1002
+2018-12-05T00:37:04.261Z - info: Handling GET /delete/:id [object Object]

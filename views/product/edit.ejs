@@ -5,10 +5,10 @@
     <div class="col col-md-12">
       <h2>Edit product </h2>
       <div class="content">
-        <form method="POST" action="/product/save/<%= product._productid %>">
+        <form method="POST" action="/product/save/<%= product._id %>">
           <div class="form-group" id=frm>
-            <label for="_productid">ID</label>
-            <input type="number" class="form-control" id="_productid" name="_productid" value="<%= product._productid %>" required disabled>
+            <label for="_id">ID</label>
+            <input type="number" class="form-control" id="_id" name="_id" value="<%= product._id %>" required disabled>
           </div>
 
             <!-- COMMON TO EDIT AND CREATE -->
